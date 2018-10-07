@@ -1,65 +1,59 @@
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .body {
-  max-width: 1024px;
-  margin: 0 auto;
+	max-width: 1024px;
+	margin: 0 auto;
 }
 
 .content {
-  display: inline-block;
-  height: 100vmin;
+	display: inline-block;
+	height: 100vmin;
 }
 
 .contacts {
-  width: 25%;
-  background-color: rgb(228, 228, 228);
-}
-
-.photo{
-  text-align: center;
-}
-
-.photo img {
-  width: 60%;
-  margin: 20px 0;
-  border-radius: 50%;
+	width: 25%;
+	background-color: rgb(228, 228, 228);
 }
 
 .info {
-  text-align: center;
+	text-align: center;
 }
 
 .info h3 {
-  margin-top: 15px;
-  margin-bottom: 5px;
+	margin-top: 15px;
+	margin-bottom: 5px;
 
-  font-family: "Helvetica", "Tahoma", sans-serif;
-  font-size: 12pt;
-  font-weight: bold;
+	font-family: "Helvetica", "Tahoma", sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
 }
 
 .info p {
-  margin-bottom: 25px;
+	margin-bottom: 25px;
 
-  font-family: "Helvetica", "Tahoma", sans-serif;
-  font-size: 10pt;
+	font-family: "Helvetica", "Tahoma", sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+.photo{
+	text-align: center;
+}
+
+.photo img {
+	width: 60%;
+	margin: 20px 0;
+	border-radius: 50%;
 }
 
 .main {
-  width: 75%;
-  position: absolute;
+	width: 75%;
+	position: absolute;
 	text-align: center;
-	background: url(images/bg.jpg);
-}
-
-.specialty {
-	font-family: "Helvetica", "Tahoma", sans-serif;
-	font-size: 18pt;
-	font-weight: bold;
-	color: rgb(83, 83, 83);
+	background: url(bg.jpg);
 }
 
 h1 {
