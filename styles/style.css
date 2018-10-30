@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.body {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.content {
+	display: inline-block;
+	height: 100vmin;
+}
+
+.contacts {
+	width: 25%;
+	background-color: rgb(228, 228, 228);
+}
+
+.info {
+	text-align: center;
+}
+
+.info h3 {
+	margin-top: 15px;
+	margin-bottom: 5px;
+
+	font-family: "Helvetica", "Tahoma", sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.info p {
+	margin-bottom: 25px;
+
+	font-family: "Helvetica", "Tahoma", sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+}
+
+.photo{
+	text-align: center;
+}
+
+.photo img {
+	width: 60%;
+	margin: 20px 0;
+	border-radius: 50%;
+}
+
+.main {
+	width: 75%;
+	position: absolute;
+	text-align: center;
+	background-image: url(../images/background.jpg);
+}
+
+h1 {
+	font-family: "ISOCTEUR", "Tahoma", fantasy;
+	font-size: 36pt;
+	font-weight: 900;
+}
+
+h2 {
+	font-family: "ISOCTEUR", "Tahoma", fantasy;
+	font-size: 22pt;
+	font-weight: bold;
+	color: rgb(63, 63, 63);
+}
+
+.specialty {
+	font-family: "Helvetica", "Tahoma", sans-serif;
+	font-size: 18pt;
+	font-weight: bold;
+	color: rgb(83, 83, 83);
+}
+
+.main h2 {
+	margin-top: 12px;
+	margin-bottom: 3px;
+	text-align: center;
+}
+
+.main p {
+	font-family: "Garamond", "Tahoma", sans-serif;
+	font-size: 12pt;
+	font-weight: normal;
+	text-align: center;
+}
